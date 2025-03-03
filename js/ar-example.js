@@ -53,7 +53,8 @@ const createScene = async function() {
     ball.position.x = 1;
 
     //adding gltf model
-    BABYLON.SceneLoader.ImportMesh(      
+    BABYLON.SceneLoader.ImportMesh(
+        null,      
         "./",      
         "Wolf-Blender-2.82a.gltf",
         scene,
